@@ -1,0 +1,154 @@
+.App {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #000000;
+}
+
+.AppHeader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  height: 50px;
+  color: #FFFFFF;
+  justify-content: space-between;
+}
+
+.AppHeaderFlexItem {
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.AppHeaderFlexItemInterval {
+  padding-right: 5px;
+}
+
+.YearBtn {
+  outline: none;
+  box-shadow: none;
+  margin-left: 3px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.Map {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+#ebcf8b1-7d16-4b23-bc6d-6d4aadcd6921 {
+  width: 40px;
+  height: 40px;
+  margin-top: 6px;
+  outline: 2px solid #9FA6B2;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#ade1973-07b7-4b9f-8b2b-1460474e82fa {
+  font-size: 40px;
+  color: #9FA6B2;
+}
+
+.Menu {
+  position: fixed;
+  top: 52px;
+  right: 0px;
+  width: 200px;
+  background-color: #000000;
+  z-index: 9999;
+  border-radius: 4px;
+  /* border: 2px solid #9FA6B2; */
+
+}
+
+.MenuItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-bottom: 2px;
+  outline: 2px solid #9FA6B2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.MenuItemInterval {
+  justify-content: space-between;
+}
+
+.MenuItemIntervalRightDisabled {
+  color: #9FA6B2;
+  cursor: not-allowed;
+}
+
+.MenuItemIntervalRight {
+  display: flex;
+}
+
+.MenuItemIntervalLeft, .MenuItemShowOrHideArrowsLeft {
+  width: 50px;
+  height: 50px;
+}
+
+.MenuItemIntervalBtn {
+  outline: 2px solid #9FA6B2;
+  width: 50px;
+  text-align: center;
+}
+
+.MenuItemIntervalBtn span {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.MenuItemIntervalValue {
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+#a72e8c4b-fdc5-4cbe-93e3-d2ac61c7ad03, #a8393d1f-47f2-4baf-8111-d99cc23138e1 {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.MenuItemShowOrHideArrowsLeft {
+  width: 50px;
+  height: 50px;
+}
+
+.MenuItemShowOrHideArrowsRight {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  outline: 2px solid #9FA6B2;
+  justify-content: space-evenly;
+}
+
+.MenuItemShowOrHideArrowsRight span {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.MenuItemShowOrHideArrowsRightDisabled {
+  color: #9FA6B2;
+  cursor: not-allowed;
+}
